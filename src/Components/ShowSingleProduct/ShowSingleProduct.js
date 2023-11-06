@@ -51,6 +51,7 @@ const ShowSingleProduct = () => {
                         <p className="card-title" >Material: <b>{oneProduct.productMaterial}</b></p>
                         <Link to="/" className="btn btn-primary">Go Back</Link>
                         <button className='btn btn-primary mx-5' onClick={deleteProduct}>Click to delete</button>     
+                        <button className='btn btn-primary mx-5' onClick={()=>navigate(`/editProduct/${oneProduct.id}`)}>Click to update</button>     
                     </div>
                 </div>
     </div>
