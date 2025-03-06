@@ -8,7 +8,6 @@ const Home = () => {
         width: '18rem',
         marginBottom: '20px'
     }
-
     const cardFlexing={
         display: 'flex',
         justifyContent: 'space-around',
